@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8956133A15F5962D00062AA4 /* JapaneseVerb.m in Sources */ = {isa = PBXBuildFile; fileRef = 8956133915F5962D00062AA4 /* JapaneseVerb.m */; };
+		8956133D15F5969E00062AA4 /* JapaneseVerbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8956133C15F5969E00062AA4 /* JapaneseVerbTests.m */; };
+		8956134015F596C400062AA4 /* JapaneseVerbEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8956133F15F596C400062AA4 /* JapaneseVerbEntry.m */; };
+		89759B7215F310F50053174C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DEBC6115F0436800F1A7D7 /* Foundation.framework */; };
+		89759B7715F310F50053174C /* JapaneseFlashCardsLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 89759B7615F310F50053174C /* JapaneseFlashCardsLibrary.h */; };
+		89759B7915F310F50053174C /* JapaneseFlashCardsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 89759B7815F310F50053174C /* JapaneseFlashCardsLibrary.m */; };
+		89759B8015F310F50053174C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DEBC8815F0436800F1A7D7 /* SenTestingKit.framework */; };
+		89759B8115F310F50053174C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DEBC5F15F0436800F1A7D7 /* UIKit.framework */; };
+		89759B8215F310F50053174C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DEBC6115F0436800F1A7D7 /* Foundation.framework */; };
+		89759B8515F310F50053174C /* libJapaneseFlashCardsLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89759B7115F310F50053174C /* libJapaneseFlashCardsLibrary.a */; };
+		89759B8B15F310F60053174C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89759B8915F310F60053174C /* InfoPlist.strings */; };
+		89759B8E15F310F60053174C /* JapaneseFlashCardsLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89759B8D15F310F60053174C /* JapaneseFlashCardsLibraryTests.m */; };
+		89DEBC6015F0436800F1A7D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DEBC5F15F0436800F1A7D7 /* UIKit.framework */; };
+		89DEBC6215F0436800F1A7D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DEBC6115F0436800F1A7D7 /* Foundation.framework */; };
+		89DEBC6415F0436800F1A7D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DEBC6315F0436800F1A7D7 /* CoreGraphics.framework */; };
+		89DEBC6615F0436800F1A7D7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89DEBC6515F0436800F1A7D7 /* CoreData.framework */; };
+		89DEBC6C15F0436800F1A7D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89DEBC6A15F0436800F1A7D7 /* InfoPlist.strings */; };
+		89DEBC6E15F0436800F1A7D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DEBC6D15F0436800F1A7D7 /* main.m */; };
+		89DEBC7215F0436800F1A7D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DEBC7115F0436800F1A7D7 /* AppDelegate.m */; };
+		89DEBC7515F0436800F1A7D7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DEBC7315F0436800F1A7D7 /* MainStoryboard_iPhone.storyboard */; };
+		89DEBC7815F0436800F1A7D7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DEBC7615F0436800F1A7D7 /* MainStoryboard_iPad.storyboard */; };
+		89DEBC7B15F0436800F1A7D7 /* JapaneseFlashCards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89DEBC7915F0436800F1A7D7 /* JapaneseFlashCards.xcdatamodeld */; };
+		89DEBC7E15F0436800F1A7D7 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DEBC7D15F0436800F1A7D7 /* MasterViewController.m */; };
+		89DEBC8115F0436800F1A7D7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DEBC8015F0436800F1A7D7 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89759B8315F310F50053174C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DEBC5215F0436800F1A7D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89759B7015F310F50053174C;
+			remoteInfo = JapaneseFlashCardsLibrary;
+		};
+		89759B9515F311940053174C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DEBC5215F0436800F1A7D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89759B7015F310F50053174C;
+			remoteInfo = JapaneseFlashCardsLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89759B6F15F310F50053174C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				89759B7715F310F50053174C /* JapaneseFlashCardsLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8956133815F5962D00062AA4 /* JapaneseVerb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JapaneseVerb.h; sourceTree = "<group>"; };
+		8956133915F5962D00062AA4 /* JapaneseVerb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JapaneseVerb.m; sourceTree = "<group>"; };
+		8956133B15F5969E00062AA4 /* JapaneseVerbTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JapaneseVerbTests.h; sourceTree = "<group>"; };
+		8956133C15F5969E00062AA4 /* JapaneseVerbTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JapaneseVerbTests.m; sourceTree = "<group>"; };
+		8956133E15F596C400062AA4 /* JapaneseVerbEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JapaneseVerbEntry.h; path = JapaneseFlashCardsLibrary/JapaneseVerbEntry.h; sourceTree = SOURCE_ROOT; };
+		8956133F15F596C400062AA4 /* JapaneseVerbEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JapaneseVerbEntry.m; path = JapaneseFlashCardsLibrary/JapaneseVerbEntry.m; sourceTree = SOURCE_ROOT; };
+		89759B7115F310F50053174C /* libJapaneseFlashCardsLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJapaneseFlashCardsLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		89759B7515F310F50053174C /* JapaneseFlashCardsLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JapaneseFlashCardsLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		89759B7615F310F50053174C /* JapaneseFlashCardsLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JapaneseFlashCardsLibrary.h; sourceTree = "<group>"; };
+		89759B7815F310F50053174C /* JapaneseFlashCardsLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JapaneseFlashCardsLibrary.m; sourceTree = "<group>"; };
+		89759B7F15F310F50053174C /* JapaneseFlashCardsLibraryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapaneseFlashCardsLibraryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89759B8815F310F60053174C /* JapaneseFlashCardsLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JapaneseFlashCardsLibraryTests-Info.plist"; sourceTree = "<group>"; };
+		89759B8A15F310F60053174C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89759B8C15F310F60053174C /* JapaneseFlashCardsLibraryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JapaneseFlashCardsLibraryTests.h; sourceTree = "<group>"; };
+		89759B8D15F310F60053174C /* JapaneseFlashCardsLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JapaneseFlashCardsLibraryTests.m; sourceTree = "<group>"; };
+		89DEBC5B15F0436800F1A7D7 /* JapaneseFlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapaneseFlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DEBC5F15F0436800F1A7D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		89DEBC6115F0436800F1A7D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89DEBC6315F0436800F1A7D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		89DEBC6515F0436800F1A7D7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		89DEBC6915F0436800F1A7D7 /* JapaneseFlashCards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JapaneseFlashCards-Info.plist"; sourceTree = "<group>"; };
+		89DEBC6B15F0436800F1A7D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89DEBC6D15F0436800F1A7D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89DEBC6F15F0436800F1A7D7 /* JapaneseFlashCards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JapaneseFlashCards-Prefix.pch"; sourceTree = "<group>"; };
+		89DEBC7015F0436800F1A7D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89DEBC7115F0436800F1A7D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89DEBC7415F0436800F1A7D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		89DEBC7715F0436800F1A7D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		89DEBC7A15F0436800F1A7D7 /* JapaneseFlashCards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JapaneseFlashCards.xcdatamodel; sourceTree = "<group>"; };
+		89DEBC7C15F0436800F1A7D7 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		89DEBC7D15F0436800F1A7D7 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		89DEBC7F15F0436800F1A7D7 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		89DEBC8015F0436800F1A7D7 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		89DEBC8815F0436800F1A7D7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89759B6E15F310F50053174C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89759B7215F310F50053174C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89759B7B15F310F50053174C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89759B8015F310F50053174C /* SenTestingKit.framework in Frameworks */,
+				89759B8115F310F50053174C /* UIKit.framework in Frameworks */,
+				89759B8215F310F50053174C /* Foundation.framework in Frameworks */,
+				89759B8515F310F50053174C /* libJapaneseFlashCardsLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DEBC5815F0436800F1A7D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DEBC6015F0436800F1A7D7 /* UIKit.framework in Frameworks */,
+				89DEBC6215F0436800F1A7D7 /* Foundation.framework in Frameworks */,
+				89DEBC6415F0436800F1A7D7 /* CoreGraphics.framework in Frameworks */,
+				89DEBC6615F0436800F1A7D7 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89759B7315F310F50053174C /* JapaneseFlashCardsLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				89759B7615F310F50053174C /* JapaneseFlashCardsLibrary.h */,
+				89759B7815F310F50053174C /* JapaneseFlashCardsLibrary.m */,
+				89759B9A15F312E00053174C /* JapaneseWords */,
+				89DEBCAC15F0488F00F1A7D7 /* Data Management */,
+				89759B7415F310F50053174C /* Supporting Files */,
+			);
+			path = JapaneseFlashCardsLibrary;
+			sourceTree = "<group>";
+		};
+		89759B7415F310F50053174C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89759B7515F310F50053174C /* JapaneseFlashCardsLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89759B8615F310F50053174C /* JapaneseFlashCardsLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				8956133B15F5969E00062AA4 /* JapaneseVerbTests.h */,
+				8956133C15F5969E00062AA4 /* JapaneseVerbTests.m */,
+				89759B8C15F310F60053174C /* JapaneseFlashCardsLibraryTests.h */,
+				89759B8D15F310F60053174C /* JapaneseFlashCardsLibraryTests.m */,
+				89759B8715F310F60053174C /* Supporting Files */,
+			);
+			path = JapaneseFlashCardsLibraryTests;
+			sourceTree = "<group>";
+		};
+		89759B8715F310F60053174C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89759B8815F310F60053174C /* JapaneseFlashCardsLibraryTests-Info.plist */,
+				89759B8915F310F60053174C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89759B9A15F312E00053174C /* JapaneseWords */ = {
+			isa = PBXGroup;
+			children = (
+				8956133815F5962D00062AA4 /* JapaneseVerb.h */,
+				8956133915F5962D00062AA4 /* JapaneseVerb.m */,
+			);
+			name = JapaneseWords;
+			sourceTree = "<group>";
+		};
+		89DEBC5015F0436800F1A7D7 = {
+			isa = PBXGroup;
+			children = (
+				89DEBC6715F0436800F1A7D7 /* JapaneseFlashCards */,
+				89759B7315F310F50053174C /* JapaneseFlashCardsLibrary */,
+				89759B8615F310F50053174C /* JapaneseFlashCardsLibraryTests */,
+				89DEBC5E15F0436800F1A7D7 /* Frameworks */,
+				89DEBC5C15F0436800F1A7D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89DEBC5C15F0436800F1A7D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89DEBC5B15F0436800F1A7D7 /* JapaneseFlashCards.app */,
+				89759B7115F310F50053174C /* libJapaneseFlashCardsLibrary.a */,
+				89759B7F15F310F50053174C /* JapaneseFlashCardsLibraryTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89DEBC5E15F0436800F1A7D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89DEBC5F15F0436800F1A7D7 /* UIKit.framework */,
+				89DEBC6115F0436800F1A7D7 /* Foundation.framework */,
+				89DEBC6315F0436800F1A7D7 /* CoreGraphics.framework */,
+				89DEBC6515F0436800F1A7D7 /* CoreData.framework */,
+				89DEBC8815F0436800F1A7D7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89DEBC6715F0436800F1A7D7 /* JapaneseFlashCards */ = {
+			isa = PBXGroup;
+			children = (
+				89DEBC7015F0436800F1A7D7 /* AppDelegate.h */,
+				89DEBC7115F0436800F1A7D7 /* AppDelegate.m */,
+				89DEBC7315F0436800F1A7D7 /* MainStoryboard_iPhone.storyboard */,
+				89DEBC7615F0436800F1A7D7 /* MainStoryboard_iPad.storyboard */,
+				89DEBC7C15F0436800F1A7D7 /* MasterViewController.h */,
+				89DEBC7D15F0436800F1A7D7 /* MasterViewController.m */,
+				89DEBC7F15F0436800F1A7D7 /* DetailViewController.h */,
+				89DEBC8015F0436800F1A7D7 /* DetailViewController.m */,
+				89DEBC7915F0436800F1A7D7 /* JapaneseFlashCards.xcdatamodeld */,
+				89DEBC6815F0436800F1A7D7 /* Supporting Files */,
+			);
+			path = JapaneseFlashCards;
+			sourceTree = "<group>";
+		};
+		89DEBC6815F0436800F1A7D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89DEBC6915F0436800F1A7D7 /* JapaneseFlashCards-Info.plist */,
+				89DEBC6A15F0436800F1A7D7 /* InfoPlist.strings */,
+				89DEBC6D15F0436800F1A7D7 /* main.m */,
+				89DEBC6F15F0436800F1A7D7 /* JapaneseFlashCards-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89DEBCAC15F0488F00F1A7D7 /* Data Management */ = {
+			isa = PBXGroup;
+			children = (
+				8956133E15F596C400062AA4 /* JapaneseVerbEntry.h */,
+				8956133F15F596C400062AA4 /* JapaneseVerbEntry.m */,
+			);
+			name = "Data Management";
+			path = ../JapaneseFlashCards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89759B7015F310F50053174C /* JapaneseFlashCardsLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89759B8F15F310F60053174C /* Build configuration list for PBXNativeTarget "JapaneseFlashCardsLibrary" */;
+			buildPhases = (
+				89759B6D15F310F50053174C /* Sources */,
+				89759B6E15F310F50053174C /* Frameworks */,
+				89759B6F15F310F50053174C /* CopyFiles */,
+				8956133615F592E800062AA4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JapaneseFlashCardsLibrary;
+			productName = JapaneseFlashCardsLibrary;
+			productReference = 89759B7115F310F50053174C /* libJapaneseFlashCardsLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		89759B7E15F310F50053174C /* JapaneseFlashCardsLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89759B9215F310F60053174C /* Build configuration list for PBXNativeTarget "JapaneseFlashCardsLibraryTests" */;
+			buildPhases = (
+				89759B7A15F310F50053174C /* Sources */,
+				89759B7B15F310F50053174C /* Frameworks */,
+				89759B7C15F310F50053174C /* Resources */,
+				89759B7D15F310F50053174C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89759B8415F310F50053174C /* PBXTargetDependency */,
+			);
+			name = JapaneseFlashCardsLibraryTests;
+			productName = JapaneseFlashCardsLibraryTests;
+			productReference = 89759B7F15F310F50053174C /* JapaneseFlashCardsLibraryTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		89DEBC5A15F0436800F1A7D7 /* JapaneseFlashCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DEBC9A15F0436900F1A7D7 /* Build configuration list for PBXNativeTarget "JapaneseFlashCards" */;
+			buildPhases = (
+				89DEBC5715F0436800F1A7D7 /* Sources */,
+				89DEBC5815F0436800F1A7D7 /* Frameworks */,
+				89DEBC5915F0436800F1A7D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89759B9615F311940053174C /* PBXTargetDependency */,
+			);
+			name = JapaneseFlashCards;
+			productName = JapaneseFlashCards;
+			productReference = 89DEBC5B15F0436800F1A7D7 /* JapaneseFlashCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89DEBC5215F0436800F1A7D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jocelyn Clifford-Frith";
+			};
+			buildConfigurationList = 89DEBC5515F0436800F1A7D7 /* Build configuration list for PBXProject "JapaneseFlashCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89DEBC5015F0436800F1A7D7;
+			productRefGroup = 89DEBC5C15F0436800F1A7D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89DEBC5A15F0436800F1A7D7 /* JapaneseFlashCards */,
+				89759B7015F310F50053174C /* JapaneseFlashCardsLibrary */,
+				89759B7E15F310F50053174C /* JapaneseFlashCardsLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89759B7C15F310F50053174C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89759B8B15F310F60053174C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DEBC5915F0436800F1A7D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DEBC6C15F0436800F1A7D7 /* InfoPlist.strings in Resources */,
+				89DEBC7515F0436800F1A7D7 /* MainStoryboard_iPhone.storyboard in Resources */,
+				89DEBC7815F0436800F1A7D7 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8956133615F592E800062AA4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "appledoc \\\n--project-name JapaneseFlashCardLibrary \\\n--project-company \"Joss\" \\\n--company-id com.joss \\\n--output $SOURCE_ROOT/help \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--ignore \"*.m\" \\\n$LIBRARY_SOURCE\n";
+		};
+		89759B7D15F310F50053174C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89759B6D15F310F50053174C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89759B7915F310F50053174C /* JapaneseFlashCardsLibrary.m in Sources */,
+				8956133A15F5962D00062AA4 /* JapaneseVerb.m in Sources */,
+				8956134015F596C400062AA4 /* JapaneseVerbEntry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89759B7A15F310F50053174C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89759B8E15F310F60053174C /* JapaneseFlashCardsLibraryTests.m in Sources */,
+				8956133D15F5969E00062AA4 /* JapaneseVerbTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DEBC5715F0436800F1A7D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DEBC6E15F0436800F1A7D7 /* main.m in Sources */,
+				89DEBC7215F0436800F1A7D7 /* AppDelegate.m in Sources */,
+				89DEBC7B15F0436800F1A7D7 /* JapaneseFlashCards.xcdatamodeld in Sources */,
+				89DEBC7E15F0436800F1A7D7 /* MasterViewController.m in Sources */,
+				89DEBC8115F0436800F1A7D7 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89759B8415F310F50053174C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89759B7015F310F50053174C /* JapaneseFlashCardsLibrary */;
+			targetProxy = 89759B8315F310F50053174C /* PBXContainerItemProxy */;
+		};
+		89759B9615F311940053174C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89759B7015F310F50053174C /* JapaneseFlashCardsLibrary */;
+			targetProxy = 89759B9515F311940053174C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89759B8915F310F60053174C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89759B8A15F310F60053174C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		89DEBC6A15F0436800F1A7D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89DEBC6B15F0436800F1A7D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		89DEBC7315F0436800F1A7D7 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89DEBC7415F0436800F1A7D7 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		89DEBC7615F0436800F1A7D7 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89DEBC7715F0436800F1A7D7 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89759B9015F310F60053174C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DOXYGEN_PATH = /Applications/Doxygen.app/Contents/Resources/doxygen;
+				DSTROOT = /tmp/JapaneseFlashCardsLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JapaneseFlashCardsLibrary/JapaneseFlashCardsLibrary-Prefix.pch";
+				LIBRARY_SOURCE = "$(SOURCE_ROOT)/JapaneseFlashCardsLibrary";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		89759B9115F310F60053174C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DOXYGEN_PATH = /Applications/Doxygen.app/Contents/Resources/doxygen;
+				DSTROOT = /tmp/JapaneseFlashCardsLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JapaneseFlashCardsLibrary/JapaneseFlashCardsLibrary-Prefix.pch";
+				LIBRARY_SOURCE = "$(SOURCE_ROOT)/JapaneseFlashCardsLibrary";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		89759B9315F310F60053174C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JapaneseFlashCardsLibrary/JapaneseFlashCardsLibrary-Prefix.pch";
+				INFOPLIST_FILE = "JapaneseFlashCardsLibraryTests/JapaneseFlashCardsLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		89759B9415F310F60053174C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JapaneseFlashCardsLibrary/JapaneseFlashCardsLibrary-Prefix.pch";
+				INFOPLIST_FILE = "JapaneseFlashCardsLibraryTests/JapaneseFlashCardsLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		89DEBC9815F0436900F1A7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_AFTER_BUILD = NO;
+			};
+			name = Debug;
+		};
+		89DEBC9915F0436900F1A7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_AFTER_BUILD = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89DEBC9B15F0436900F1A7D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JapaneseFlashCards/JapaneseFlashCards-Prefix.pch";
+				INFOPLIST_FILE = "JapaneseFlashCards/JapaneseFlashCards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		89DEBC9C15F0436900F1A7D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JapaneseFlashCards/JapaneseFlashCards-Prefix.pch";
+				INFOPLIST_FILE = "JapaneseFlashCards/JapaneseFlashCards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89759B8F15F310F60053174C /* Build configuration list for PBXNativeTarget "JapaneseFlashCardsLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89759B9015F310F60053174C /* Debug */,
+				89759B9115F310F60053174C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89759B9215F310F60053174C /* Build configuration list for PBXNativeTarget "JapaneseFlashCardsLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89759B9315F310F60053174C /* Debug */,
+				89759B9415F310F60053174C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DEBC5515F0436800F1A7D7 /* Build configuration list for PBXProject "JapaneseFlashCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DEBC9815F0436900F1A7D7 /* Debug */,
+				89DEBC9915F0436900F1A7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DEBC9A15F0436900F1A7D7 /* Build configuration list for PBXNativeTarget "JapaneseFlashCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DEBC9B15F0436900F1A7D7 /* Debug */,
+				89DEBC9C15F0436900F1A7D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		89DEBC7915F0436800F1A7D7 /* JapaneseFlashCards.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				89DEBC7A15F0436800F1A7D7 /* JapaneseFlashCards.xcdatamodel */,
+			);
+			currentVersion = 89DEBC7A15F0436800F1A7D7 /* JapaneseFlashCards.xcdatamodel */;
+			path = JapaneseFlashCards.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 89DEBC5215F0436800F1A7D7 /* Project object */;
+}

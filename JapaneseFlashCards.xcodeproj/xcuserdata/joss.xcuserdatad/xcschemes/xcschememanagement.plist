@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>JapaneseFlashCards.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>JapaneseFlashCardsLibrary.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>JapaneseFlashCardsLibraryTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>89759B7015F310F50053174C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89759B7E15F310F50053174C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89DEBC5A15F0436800F1A7D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89DEBC8615F0436800F1A7D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89DEBCB615F05AA000F1A7D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89E717C315F0CE0C004EBD02</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
