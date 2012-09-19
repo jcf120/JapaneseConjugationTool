@@ -38,4 +38,16 @@
     return [NSSet setWithObject:@"conjugationTypeNumber"];
 }
 
+#pragma mark Factory Methods
+
+- (JapaneseVerb *)japaneseVerb
+{
+    JapaneseVerb *verb = nil;
+    if (self.conjugationType == JapaneseVerbConjugationIchidan)
+        verb = [[JapaneseIchidanVerb alloc] init];
+    else if (self.conjugationType == JapaneseVerbConjugationGodan)
+        verb = [[JapaneseGodanVerb alloc] init];
+    return verb;
+}
+
 @end

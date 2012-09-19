@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		892525621609AC84001CAB36 /* FuriganaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 892525611609AC84001CAB36 /* FuriganaTests.m */; };
+		89497FB316073DCC003DA020 /* Furigana.m in Sources */ = {isa = PBXBuildFile; fileRef = 89497FB216073DCC003DA020 /* Furigana.m */; };
 		8956133A15F5962D00062AA4 /* JapaneseVerb.m in Sources */ = {isa = PBXBuildFile; fileRef = 8956133915F5962D00062AA4 /* JapaneseVerb.m */; };
 		8956133D15F5969E00062AA4 /* JapaneseVerbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8956133C15F5969E00062AA4 /* JapaneseVerbTests.m */; };
 		8956134015F596C400062AA4 /* JapaneseVerbEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8956133F15F596C400062AA4 /* JapaneseVerbEntry.m */; };
@@ -64,6 +66,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		892525601609AC84001CAB36 /* FuriganaTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FuriganaTests.h; path = ../JapaneseFlashCardsLibrary/FuriganaTests.h; sourceTree = "<group>"; };
+		892525611609AC84001CAB36 /* FuriganaTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FuriganaTests.m; path = ../JapaneseFlashCardsLibrary/FuriganaTests.m; sourceTree = "<group>"; };
+		89497FB116073DCC003DA020 /* Furigana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Furigana.h; sourceTree = "<group>"; };
+		89497FB216073DCC003DA020 /* Furigana.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Furigana.m; sourceTree = "<group>"; };
 		8956133815F5962D00062AA4 /* JapaneseVerb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JapaneseVerb.h; sourceTree = "<group>"; };
 		8956133915F5962D00062AA4 /* JapaneseVerb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JapaneseVerb.m; sourceTree = "<group>"; };
 		8956133B15F5969E00062AA4 /* JapaneseVerbTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JapaneseVerbTests.h; sourceTree = "<group>"; };
@@ -157,6 +163,8 @@
 		89759B8615F310F50053174C /* JapaneseFlashCardsLibraryTests */ = {
 			isa = PBXGroup;
 			children = (
+				892525601609AC84001CAB36 /* FuriganaTests.h */,
+				892525611609AC84001CAB36 /* FuriganaTests.m */,
 				8956133B15F5969E00062AA4 /* JapaneseVerbTests.h */,
 				8956133C15F5969E00062AA4 /* JapaneseVerbTests.m */,
 				89759B8C15F310F60053174C /* JapaneseFlashCardsLibraryTests.h */,
@@ -180,6 +188,8 @@
 			children = (
 				8956133815F5962D00062AA4 /* JapaneseVerb.h */,
 				8956133915F5962D00062AA4 /* JapaneseVerb.m */,
+				89497FB116073DCC003DA020 /* Furigana.h */,
+				89497FB216073DCC003DA020 /* Furigana.m */,
 			);
 			name = JapaneseWords;
 			sourceTree = "<group>";
@@ -283,7 +293,6 @@
 				89759B7A15F310F50053174C /* Sources */,
 				89759B7B15F310F50053174C /* Frameworks */,
 				89759B7C15F310F50053174C /* Resources */,
-				89759B7D15F310F50053174C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -374,20 +383,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "appledoc \\\n--project-name JapaneseFlashCardLibrary \\\n--project-company \"Joss\" \\\n--company-id com.joss \\\n--output $SOURCE_ROOT/help \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--ignore \"*.m\" \\\n$LIBRARY_SOURCE\n";
-		};
-		89759B7D15F310F50053174C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+			shellScript = "appledoc \\\n--project-name JapaneseFlashCardLibrary \\\n--project-company \"Joss\" \\\n--company-id com.joss \\\n--output $SOURCE_ROOT\"/../help\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--ignore \"*.m\" \\\n$LIBRARY_SOURCE";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -399,6 +395,7 @@
 				89759B7915F310F50053174C /* JapaneseFlashCardsLibrary.m in Sources */,
 				8956133A15F5962D00062AA4 /* JapaneseVerb.m in Sources */,
 				8956134015F596C400062AA4 /* JapaneseVerbEntry.m in Sources */,
+				89497FB316073DCC003DA020 /* Furigana.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +405,7 @@
 			files = (
 				89759B8E15F310F60053174C /* JapaneseFlashCardsLibraryTests.m in Sources */,
 				8956133D15F5969E00062AA4 /* JapaneseVerbTests.m in Sources */,
+				892525621609AC84001CAB36 /* FuriganaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,7 +475,6 @@
 		89759B9015F310F60053174C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DOXYGEN_PATH = /Applications/Doxygen.app/Contents/Resources/doxygen;
 				DSTROOT = /tmp/JapaneseFlashCardsLibrary.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JapaneseFlashCardsLibrary/JapaneseFlashCardsLibrary-Prefix.pch";
@@ -485,13 +482,13 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_DOCUMENTATION_DIR = /Users/joss/Documents/iOS/help;
 			};
 			name = Debug;
 		};
 		89759B9115F310F60053174C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DOXYGEN_PATH = /Applications/Doxygen.app/Contents/Resources/doxygen;
 				DSTROOT = /tmp/JapaneseFlashCardsLibrary.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JapaneseFlashCardsLibrary/JapaneseFlashCardsLibrary-Prefix.pch";
@@ -499,6 +496,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_DOCUMENTATION_DIR = /Users/joss/Documents/iOS/help;
 			};
 			name = Release;
 		};

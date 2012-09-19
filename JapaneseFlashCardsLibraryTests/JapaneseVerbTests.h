@@ -9,8 +9,12 @@
 #import <SenTestingKit/SenTestingKit.h>
 #import "JapaneseVerb.h"
 
-@interface JapaneseVerbTests : SenTestCase {
-    JapaneseVerb *japaneseVerb;
-}
+@interface JapaneseVerbTests : SenTestCase
+
+@end
+
+@interface JapaneseGodanVerbTests : SenTestCase
+
++ (NSArray *)validVerbStrings;
 
 @end
