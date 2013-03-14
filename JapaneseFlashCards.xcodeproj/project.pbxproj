@@ -66,8 +66,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		892525601609AC84001CAB36 /* FuriganaTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FuriganaTests.h; path = ../JapaneseFlashCardsLibrary/FuriganaTests.h; sourceTree = "<group>"; };
-		892525611609AC84001CAB36 /* FuriganaTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FuriganaTests.m; path = ../JapaneseFlashCardsLibrary/FuriganaTests.m; sourceTree = "<group>"; };
+		892525601609AC84001CAB36 /* FuriganaTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FuriganaTests.h; path = JapaneseFlashCardsLibraryTests/FuriganaTests.h; sourceTree = SOURCE_ROOT; };
+		892525611609AC84001CAB36 /* FuriganaTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FuriganaTests.m; path = JapaneseFlashCardsLibraryTests/FuriganaTests.m; sourceTree = SOURCE_ROOT; };
 		89497FB116073DCC003DA020 /* Furigana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Furigana.h; sourceTree = "<group>"; };
 		89497FB216073DCC003DA020 /* Furigana.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Furigana.m; sourceTree = "<group>"; };
 		8956133815F5962D00062AA4 /* JapaneseVerb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JapaneseVerb.h; sourceTree = "<group>"; };
@@ -328,7 +328,7 @@
 		89DEBC5215F0436800F1A7D7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Jocelyn Clifford-Frith";
 			};
 			buildConfigurationList = 89DEBC5515F0436800F1A7D7 /* Build configuration list for PBXProject "JapaneseFlashCards" */;
@@ -538,6 +538,9 @@
 				BUNDLE_LOADER = "";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -568,6 +571,9 @@
 				BUNDLE_LOADER = "";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;

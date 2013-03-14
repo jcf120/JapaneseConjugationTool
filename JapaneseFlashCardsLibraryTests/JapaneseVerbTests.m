@@ -20,12 +20,6 @@
     [super tearDown];
 }
 
-- (void)testCreationFailure
-{
-    JapaneseVerb *jv = [[JapaneseVerb alloc] initWithDictionaryForm:@"食べる"];
-    STAssertNil(jv, @"JapaneseVerb is an abstract class and instantiation should fail.");
-}
-
 @end
 
 
