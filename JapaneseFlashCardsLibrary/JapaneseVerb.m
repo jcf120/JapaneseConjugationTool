@@ -106,7 +106,7 @@
 {
     if (self = [super initWithDictionaryForm:verbString]) {
         // Verb must end ru
-        if ([self ending] != @"る") {
+        if (![[self ending] isEqual: @"る" ]){
             // Invalid verb ending
             [NSException exceptionWithName:NSInvalidArgumentException reason:[NSString stringWithFormat:@"JapaneseIchidanVerb can only be instantiated with a string ending 'る', but was instead sent a string ending '%@'",[self ending]] userInfo:nil];
             self = nil;
@@ -175,23 +175,23 @@
     NSString *newEnding = nil;
     NSString *ending = [self ending];
     
-    if      (ending == @"う")
+    if      ([ending isEqual: @"う"])
         newEnding = @"わ";
-    else if (ending == @"く")
+    else if ([ending isEqual: @"く"])
         newEnding = @"か";
-    else if (ending == @"ぐ")
+    else if ([ending isEqual: @"ぐ"])
         newEnding = @"が";
-    else if (ending == @"す")
+    else if ([ending isEqual: @"す"])
         newEnding = @"さ";
-    else if (ending == @"つ")
+    else if ([ending isEqual: @"つ"])
         newEnding = @"た";
-    else if (ending == @"ぬ")
+    else if ([ending isEqual: @"ぬ"])
         newEnding = @"な";
-    else if (ending == @"ぶ")
+    else if ([ending isEqual: @"ぶ"])
         newEnding = @"ば";
-    else if (ending == @"む")
+    else if ([ending isEqual: @"む"])
         newEnding = @"ま";
-    else if (ending == @"る")
+    else if ([ending isEqual: @"る"])
         newEnding = @"ら";
     else {
         // Invalid Godan ending
@@ -206,23 +206,23 @@
     NSString *newEnding = nil;
     NSString *ending = [self ending];
     
-    if      (ending == @"う")
+    if      ([ending isEqual: @"う"])
         newEnding = @"い";
-    else if (ending == @"く")
+    else if ([ending isEqual: @"く"])
         newEnding = @"き";
-    else if (ending == @"ぐ")
+    else if ([ending isEqual: @"ぐ"])
         newEnding = @"ぎ";
-    else if (ending == @"す")
+    else if ([ending isEqual: @"す"])
         newEnding = @"し";
-    else if (ending == @"つ")
+    else if ([ending isEqual: @"つ"])
         newEnding = @"ち";
-    else if (ending == @"ぬ")
+    else if ([ending isEqual: @"ぬ"])
         newEnding = @"に";
-    else if (ending == @"ぶ")
+    else if ([ending isEqual: @"ぶ"])
         newEnding = @"び";
-    else if (ending == @"む")
+    else if ([ending isEqual: @"む"])
         newEnding = @"み";
-    else if (ending == @"る")
+    else if ([ending isEqual: @"る"])
         newEnding = @"り";
     else {
         // Invalid Godan ending
@@ -242,23 +242,23 @@
     NSString *newEnding = nil;
     NSString *ending = [self ending];
     
-    if      (ending == @"う")
+    if      ([ending isEqual: @"う"])
         newEnding = @"え";
-    else if (ending == @"く")
+    else if ([ending isEqual: @"く"])
         newEnding = @"け";
-    else if (ending == @"ぐ")
+    else if ([ending isEqual: @"ぐ"])
         newEnding = @"げ";
-    else if (ending == @"す")
+    else if ([ending isEqual: @"す"])
         newEnding = @"せ";
-    else if (ending == @"つ")
+    else if ([ending isEqual: @"つ"])
         newEnding = @"て";
-    else if (ending == @"ぬ")
+    else if ([ending isEqual: @"ぬ"])
         newEnding = @"ね";
-    else if (ending == @"ぶ")
+    else if ([ending isEqual: @"ぶ"])
         newEnding = @"べ";
-    else if (ending == @"む")
+    else if ([ending isEqual: @"む"])
         newEnding = @"め";
-    else if (ending == @"る")
+    else if ([ending isEqual: @"る"])
         newEnding = @"れ";
     else {
         // Invalid Godan ending
@@ -273,23 +273,23 @@
     NSString *newEnding = nil;
     NSString *ending = [self ending];
     
-    if      (ending == @"う")
+    if      ([ending isEqual: @"う"])
         newEnding = @"おう";
-    else if (ending == @"く")
+    else if ([ending isEqual: @"く"])
         newEnding = @"こう";
-    else if (ending == @"ぐ")
+    else if ([ending isEqual: @"ぐ"])
         newEnding = @"ごう";
-    else if (ending == @"す")
+    else if ([ending isEqual: @"す"])
         newEnding = @"そう";
-    else if (ending == @"つ")
+    else if ([ending isEqual: @"つ"])
         newEnding = @"とう";
-    else if (ending == @"ぬ")
+    else if ([ending isEqual: @"ぬ"])
         newEnding = @"のう";
-    else if (ending == @"ぶ")
+    else if ([ending isEqual: @"ぶ"])
         newEnding = @"ぼう";
-    else if (ending == @"む")
+    else if ([ending isEqual: @"む"])
         newEnding = @"もう";
-    else if (ending == @"る")
+    else if ([ending isEqual: @"る"])
         newEnding = @"ろう";
     else {
         // Invalid Godan ending
@@ -304,23 +304,23 @@
     NSString *newEnding = nil;
     NSString *ending = [self ending];
     
-    if      (ending == @"う")
+    if      ([ending isEqual: @"う"])
         newEnding = @"って";
-    else if (ending == @"く")
+    else if ([ending isEqual: @"く"])
         newEnding = @"いて";
-    else if (ending == @"ぐ")
+    else if ([ending isEqual: @"ぐ"])
         newEnding = @"いで";
-    else if (ending == @"す")
+    else if ([ending isEqual: @"す"])
         newEnding = @"して";
-    else if (ending == @"つ")
+    else if ([ending isEqual: @"つ"])
         newEnding = @"って";
-    else if (ending == @"ぬ")
+    else if ([ending isEqual: @"ぬ"])
         newEnding = @"んで";
-    else if (ending == @"ぶ")
+    else if ([ending isEqual: @"ぶ"])
         newEnding = @"んて";
-    else if (ending == @"む")
+    else if ([ending isEqual: @"む"])
         newEnding = @"んで";
-    else if (ending == @"る")
+    else if ([ending isEqual: @"る"])
         newEnding = @"って";
     else {
         // Invalid Godan ending
@@ -335,23 +335,23 @@
     NSString *newEnding = nil;
     NSString *ending = [self ending];
     
-    if      (ending == @"う")
+    if      ([ending isEqual: @"う"])
         newEnding = @"った";
-    else if (ending == @"く")
+    else if ([ending isEqual: @"く"])
         newEnding = @"いた";
-    else if (ending == @"ぐ")
+    else if ([ending isEqual: @"ぐ"])
         newEnding = @"いだ";
-    else if (ending == @"す")
+    else if ([ending isEqual: @"す"])
         newEnding = @"した";
-    else if (ending == @"つ")
+    else if ([ending isEqual: @"つ"])
         newEnding = @"った";
-    else if (ending == @"ぬ")
+    else if ([ending isEqual: @"ぬ"])
         newEnding = @"んだ";
-    else if (ending == @"ぶ")
+    else if ([ending isEqual: @"ぶ"])
         newEnding = @"んた";
-    else if (ending == @"む")
+    else if ([ending isEqual: @"む"])
         newEnding = @"んだ";
-    else if (ending == @"る")
+    else if ([ending isEqual: @"る"])
         newEnding = @"った";
     else {
         // Invalid Godan ending
